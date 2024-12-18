@@ -10,20 +10,20 @@
     background: rgb(255, 255, 255);
     border: 0.9px solid; 
   }
-  .welcome-section { /* БЛОК ВЕРХНЕГО ТЕКСТА */
+  .TopTextBlock { /* БЛОК ВЕРХНЕГО ТЕКСТА */
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
-  .welcome-container { /* КОНТЕЙНЕР ДЛЯ ТЕКСТА */
+  .TextContainer { /* КОНТЕЙНЕР ДЛЯ ТЕКСТА */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
-  .welcome-message-text-style { /* ТЕКСТ "ДОБРО ПОЖАЛОВАТЬ" */
+  .Text { /* ТЕКСТ "ДОБРО ПОЖАЛОВАТЬ" */
     flex: 0 0 auto;
     padding: 0;
     margin: 0;
@@ -31,7 +31,7 @@
     color: black;  
     align-items: center;
   }
-  .welcome-message-container { /* ОТСТУП МЕЖДУ ТЕКСТОМ И КАРТИНКОЙ */
+  .Indentation { /* ОТСТУП МЕЖДУ ТЕКСТОМ И КАРТИНКОЙ */
     flex: 0 0 auto;
     margin-top: 42px;
   }
@@ -46,7 +46,7 @@
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
     object-fit: cover;
   }
-  .employee-chat-interface1 {  /* БЛОК ТЕКСТА "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
+  .TextBlock2 {  /* БЛОК ТЕКСТА "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -54,7 +54,7 @@
     justify-content: flex-start;
     margin-top: 42px;
   }
-  .chatbot-heading-style { /* ТЕКСТ "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
+  .Text2 { /* ТЕКСТ "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
     flex: 0 0 auto;
     align-self: center;
     padding: 0;
@@ -73,7 +73,7 @@
     justify-content: center;
     margin-top: 38px;
   }
-  .call-to-action-container1 { /* [p [pz */
+  .call-to-action-container1 { /*  */
     box-sizing: border-box;
     display: flex;
     flex: 0 0 auto;
@@ -94,14 +94,14 @@
     background: #a3dbfd;
     border-radius: 20px;
   }
-  .svg-container {
+  .svg-container { /*Изображение*/
     display: flex;
     flex: 0 0 auto;
     width: 32px;
     height: 32px;
     color: #1b457a;
   }
-  .create-issue-button-style {
+  .create-issue-button-style { /* ТЕКСТ СОЗДАТЬ ОБРАЩЕНИЕ */
     flex: 0 0 auto;
     padding: 0;
     padding-top: 2px;
@@ -128,14 +128,15 @@
     background: #a3dbfd;
     border-radius: 20px;
   }
-  .access-approval-icon {
+  .access-approval-icon { /*иконка чего-то*/
     box-sizing: border-box;
     display: block;
     width: 36px;
     max-width: initial;
     height: 25px;
   }
-  .access-approval-heading {  /* ТЕКСТ "СОГЛАСОВАНИЕ ДОСТУПА */
+  
+  .access-approval-heading{  /* ТЕКСТ "СОГЛАСОВАНИЕ ДОСТУПА */
     flex: 0 0 auto;
     padding: 0;
     padding-bottom: 7.25px;
@@ -154,7 +155,7 @@
     border-radius: 20px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   }
-  .instruction-container {
+  .instruction-container { /*Контейнер для инструкций(меняет цвет и тд*/
     box-sizing: border-box;
     display: flex;
     flex: 0 0 auto;
@@ -167,7 +168,7 @@
     background: #a3dbfd;
     border-radius: 20px;
   }
-  .instruction-title {
+  .instruction-title { /*ТЕКСТ ИНСТРУКЦИИ*/
     flex: 0 0 auto;
     padding: 0;
     padding-bottom: 8px;
@@ -176,7 +177,7 @@
     font: 700 16px Poppins, sans-serif;
     color: rgba(0, 0, 0, 0.9);
   }
-  .media-resources-container {
+  .media-resources-container { /*Какой-то контейнер для медиаресурсов*/
     box-sizing: border-box;
     display: flex;
     flex: 0 0 auto;
@@ -188,14 +189,14 @@
     background: #a3dbfd;
     border-radius: 20px;
   }
-  .media-resource-image {
+  .media-resource-image { /*изображение медиа-ресурсы*/
     box-sizing: border-box;
     display: block;
     width: 30px;
     max-width: initial;
     height: 33px;
   }
-  .media-heading {
+  .media-heading {/*ТЕКСТ МЕДИАРЕСУРСЫ*/
     flex: 0 0 auto;
     padding: 0;
     margin: 0;
