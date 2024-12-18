@@ -95,12 +95,12 @@
     border-radius: 20px;
   }
 
-  .call-to-action-container:hover { /*анимация при наведении на кнопку "создать обращение"*/
+.container-appeal:hover{
     background: #a1cfec;
     box-shadow: none;
     position: relative;
     top: 5px;
-  }
+  } /*анимация при наведении на кнопку "создать обращение"*/
 
 .svg-container { /*Изображение*/
     display: flex;
