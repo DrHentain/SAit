@@ -1,0 +1,218 @@
+.background {   /* ЗАДНИЙ ФОН */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 387px;
+    padding-top: 56px;
+    padding-bottom: 55px;
+    background: rgb(255, 255, 255);
+    border: 0.9px solid; 
+  }
+  .welcome-section { /* БЛОК ВЕРХНЕГО ТЕКСТА */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .welcome-container { /* КОНТЕЙНЕР ДЛЯ ТЕКСТА */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .welcome-message-text-style { /* ТЕКСТ "ДОБРО ПОЖАЛОВАТЬ" */
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 18.5px Poppins, sans-serif;
+    color: black;  
+    align-items: center;
+  }
+  .welcome-message-container { /* ОТСТУП МЕЖДУ ТЕКСТОМ И КАРТИНКОЙ */
+    flex: 0 0 auto;
+    margin-top: 42px;
+  }
+  .circular-avatar-img {   /* АВАТАРКА РОБОТА */
+    box-sizing: border-box;
+    display: block;
+    width: 130px;
+    max-width: initial;
+    height: 130px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+  }
+  .employee-chat-interface1 {  /* БЛОК ТЕКСТА "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-top: 42px;
+  }
+  .chatbot-heading-style { /* ТЕКСТ "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-left: -5.75px;
+    font: 700 18.5px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.59);
+    align-items: center;
+  }
+  .vertical-menu-container { /* БЛОК ВЕРХНЕГО ТЕКСТА */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 33px;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 38px;
+  }
+  .call-to-action-container1 { /* [p [pz */
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .call-to-action-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 24.5px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+  .svg-container {
+    display: flex;
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    color: #1b457a;
+  }
+  .create-issue-button-style {
+    flex: 0 0 auto;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    margin: 0;
+    margin-left: 12.5px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .access-approval-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .access-approval-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px 24px 14px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+  .access-approval-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 36px;
+    max-width: initial;
+    height: 25px;
+  }
+  .access-approval-heading {  /* ТЕКСТ "СОГЛАСОВАНИЕ ДОСТУПА */
+    flex: 0 0 auto;
+    padding: 0;
+    padding-bottom: 7.25px;
+    margin: 0;
+    margin-left: 8.5px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .vertical-center-column { /* ТЕНЬ БЛОКА "ИНСТРУКЦИИ" */
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .instruction-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 13px;
+    padding-right: 99px;
+    padding-bottom: 13px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+  .instruction-title {
+    flex: 0 0 auto;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: 0;
+    margin-left: 11px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .media-resources-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    padding-right: 77px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+  .media-resource-image {
+    box-sizing: border-box;
+    display: block;
+    width: 30px;
+    max-width: initial;
+    height: 33px;
+  }
+  .media-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 12px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .feedback-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 13px;
+    padding-right: 72px;
+    padding-bottom: 13px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
