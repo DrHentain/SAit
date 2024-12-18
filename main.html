@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Mainstyle.css" />
     <title>Главная</title>
-
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!--Убрал кое что-->
+    <script>
+      $('div').html("<div></div>"); 
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
     <!--[if !mso]><!-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--<![endif]-->
-
     <meta name="x-apple-disable-message-reformatting" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
+
     <!--Добро пожаловать-->
-    <div style="display: inline-block; width: 387.1087341308594px" data-ignore="used only for top most containter width">
-      <div class="background">
+    <div style="display: inline-block;
+    width: 387.1087341308594px" data-ignore="used only for top most containter width"><!--Уменьшает нашу область до области смартфона-->
+      <div class="background"><!--определяет размер нашей области-->
         <div class="TopTextBlock ">
           <div class="TextContainer">
             <p class="Text">Добро пожаловать!</p>
@@ -34,12 +36,13 @@
           <p class="Text2">Чат-бот для сотрудников</p>
           <div class="vertical-menu-container">
             <!--Кнопка для создания обращения-->
-            <div class="call-to-action-container1">
-              <div class="call-to-action-container">
+            <div class="Shadow1">
+              <div class="container-appeal">
                 <div class="svg-container">
                   <svg viewBox="0 0 32 32" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector_10" d="M7.0526,3.0893c-0.2511,0 -0.4663,0.033 -0.6816,0.098c-1.3989,0.26 -2.5109,1.268 -2.7979,2.536c-0.1076,0.195 -0.1076,0.39 -0.1076,0.617v17.879c0,2.699 2.4033,4.877 5.3806,4.877h19.7288v-3.251h-19.7288c-1.0044,0 -1.7935,-0.715 -1.7935,-1.626c0,-0.91 0.7891,-1.625 1.7935,-1.625h19.7288v-17.879c0,-0.91 -0.7891,-1.626 -1.7935,-1.626h-1.7935v9.753l-3.5871,-3.251l-3.587,3.251v-9.753z" fill="currentColor" xmlns="http://www.w3.org/2000/svg" /></svg>
                 </div>
-                <p class="create-issue-button-style">Создать обращение</p>
+                <!--ССылка в сибирь(на создать обращени)-->
+                <a href="CreateOBR.html"> <p class="create-issue-button-style">Создать обращение</p></a>
               </div>
             </div>
             <!--Кнопка для согласования доступа-->
@@ -96,6 +99,7 @@
         </div>
       </div>
     </div>
+    <div>
 <!--<script src="https://telegram.org/js/telegram-web-app.js?56"></script>-->
 </body>
 </html>

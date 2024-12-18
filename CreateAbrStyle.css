@@ -1,0 +1,47 @@
+.background {   /* ЗАДНИЙ ФОН */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 387px;
+    padding-top: 56px;
+    padding-bottom: 55px;
+    background: rgb(255, 255, 255);
+    border: 0.9px solid; 
+  }
+.smart{
+    display: inline-block;
+    width: 388px;
+    data-ignore: "used only for top most containter width"
+}
+
+.vertical-menu-container { /* БЛОК ВЕРХНЕГО ТЕКСТА */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 33px;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.button{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    padding-right: 77px;
+    background: #a3dbfd;
+    box-shadow: 0 5px 0 #60b6ec;
+    border-radius: 20px;
+}
+.button:hover{
+    background: #a1cfec;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
