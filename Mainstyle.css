@@ -10,6 +10,10 @@
     background: rgb(255, 255, 255);
     border: 0.9px solid; 
   }
+
+a{
+  text-decoration: none;
+}
 .TopTextBlock { /* БЛОК ВЕРХНЕГО ТЕКСТА */
     display: flex;
     flex: 0 0 auto;
@@ -83,6 +87,7 @@
     border-radius: 20px;
     box-shadow: 0px 5px 0px #60b6ec;
   }
+  
 .container-appeal { /*Создать обращение контейнер*/
     box-sizing: border-box;
     display: flex;
