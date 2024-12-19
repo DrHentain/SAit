@@ -1,0 +1,264 @@
+.background {   /* ЗАДНИЙ ФОН */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 387px;
+    padding-top: 56px;
+    padding-bottom: 55px;
+    background: rgb(255, 255, 255);
+    border: 0.9px solid; 
+  }
+.TopTextBlock { /* БЛОК ВЕРХНЕГО ТЕКСТА */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+.TextContainer { /* КОНТЕЙНЕР ДЛЯ ТЕКСТА */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+.Text { /* ТЕКСТ "ДОБРО ПОЖАЛОВАТЬ" */
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 18.5px Poppins, sans-serif;
+    color: black;  
+    align-items: center;
+  }
+.Indentation { /* ОТСТУП МЕЖДУ ТЕКСТОМ И КАРТИНКОЙ */
+    flex: 0 0 auto;
+    margin-top: 42px;
+  }
+.circular-avatar-img {   /* АВАТАРКА РОБОТА */
+    box-sizing: border-box;
+    display: block;
+    width: 130px;
+    max-width: initial;
+    height: 130px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+  }
+.TextBlock2 {  /* БЛОК ТЕКСТА "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-top: 42px;
+  }
+.Text2 { /* ТЕКСТ "ЧАТ-БОТ ДЛЯ СОТРУДНИКОВ" */
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-left: -5.75px;
+    font: 700 18.5px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.59);
+    align-items: center;
+  }
+.vertical-menu-container { /* БЛОК ВЕРХНЕГО ТЕКСТА */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 33px;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 38px;
+  }
+.Shadow1 { /* тень для чего-то */
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px #60b6ec;
+  }
+  
+.container-appeal { /*Создать обращение контейнер*/
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 24.5px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+
+.container-appeal:hover{
+    background: #a1cfec;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  } /*анимация при наведении на кнопку "создать обращение"*/
+
+.svg-container { /*Изображение*/
+    display: flex;
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    color: #1b457a;
+  }
+.create-issue-button-style { /* ТЕКСТ СОЗДАТЬ ОБРАЩЕНИЕ */
+    flex: 0 0 auto;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    margin: 0;
+    margin-left: 12.5px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+.access-approval-container { /*тень контейнера*/
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px #60b6ec;
+  }
+
+.access-approval-container1 { /*контейнер согласование доступа*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px 24px 14px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+
+.access-approval-container1:hover{ /*анимация при наведении на согласование доступа*/
+  background: #a1cfec;
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.access-approval-heading{  /* ТЕКСТ "СОГЛАСОВАНИЕ ДОСТУПА */
+  flex: 0 0 auto;
+  padding: 0;
+  padding-bottom: 7.25px;
+  margin: 0;
+  margin-left: 10px;
+  font: 700 16px Poppins, sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.access-approval-icon { /*иконка согласование доступа*/
+    box-sizing: border-box;
+    display: block;
+    width: 36px;
+    max-width: initial;
+    height: 25px;
+  }
+
+.vertical-center-column { /* ТЕНЬ БЛОКА "ИНСТРУКЦИИ" */
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px #60b6ec;
+  }
+
+.instruction-container { /*Контейнер для инструкций(меняет цвет и тд)*/
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 13px;
+    padding-right: 99px;
+    padding-bottom: 13px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+
+  .instruction-container:hover{ /*анимация*/
+    background: #a1cfec;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+
+.instruction-title { /*ТЕКСТ ИНСТРУКЦИИ*/
+    flex: 0 0 auto;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: 0;
+    margin-left: 11px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+.media-resources-container { /*контейнер для медиаресурсов*/
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    padding-right: 77px;
+    background: #a3dbfd;
+    box-shadow: 0 5px 0 #60b6ec;
+    border-radius: 20px;
+  }
+  
+  .media-resources-container:hover{ /*это анимация*/
+    background: #a1cfec;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+.media-resource-image { /*изображение медиа-ресурсы*/
+    box-sizing: border-box;
+    display: block;
+    width: 30px;
+    max-width: initial;
+    height: 33px;
+  }
+.media-heading {/*ТЕКСТ МЕДИАРЕСУРСЫ*/
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 12px;
+    font: 700 16px Poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+  }
+.feedback-container { /*контейнер для обратной связи*/
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 13px;
+    padding-right: 72px;
+    padding-bottom: 13px;
+    background: #a3dbfd;
+    border-radius: 20px;
+  }
+
+  .feedback-container:hover{  /*анимация*/
+    background: #a1cfec;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
