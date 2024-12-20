@@ -11,7 +11,7 @@
     border: 0.9px solid; 
   }
 
-.a{
+a{
   text-decoration: none;
 }
 .TopTextBlock { /* БЛОК ВЕРХНЕГО ТЕКСТА */
@@ -54,7 +54,7 @@
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     justify-content: flex-start;
     margin-top: 42px;
   }
@@ -87,13 +87,13 @@
     border-radius: 20px;
     box-shadow: 0px 5px 0px #60b6ec;
   }
-  
+   
 .container-appeal { /*Создать обращение контейнер*/
     box-sizing: border-box;
     display: flex;
     flex: 0 0 auto;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     padding: 13px 24.5px;
     background: #a3dbfd;
@@ -136,7 +136,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     width: 100%;
     padding: 15px 24px 14px;
@@ -181,17 +181,15 @@
   }
 
 .instruction-container { /*Контейнер для инструкций(меняет цвет и тд)*/
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 13px;
-    padding-right: 99px;
-    padding-bottom: 13px;
-    background: #a3dbfd;
-    border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 15px 24px 14px;
+  background: #a3dbfd;
+  border-radius: 20px;
   }
 
   .instruction-container:hover{ /*анимация*/

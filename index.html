@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Mainstyle.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='Mainstyle.css') }}">
     <title>Главная</title>
     <link rel="#" href="#">
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
     <!--Убрал кое что-->
     <script>
       $('div').html("<div></div>"); 

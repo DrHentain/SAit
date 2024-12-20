@@ -10,6 +10,10 @@
     background: rgb(255, 255, 255);
     border: 0.9px solid; 
   }
+
+  a{
+    text-decoration: none;
+  }
 .TopTextBlock { /* БЛОК ВЕРХНЕГО ТЕКСТА */
     display: flex;
     flex: 0 0 auto;
